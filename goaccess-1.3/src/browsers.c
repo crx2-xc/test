@@ -231,6 +231,10 @@ free_browsers_hash (void)
 
 
   for (j = 0; j < conf.browsers_hash_idx; ++j) {
+   
+   
+   /*dd**/
+   
     free (conf.user_browsers_hash[j][0]);
     free (conf.user_browsers_hash[j][1]);
     free (conf.user_browsers_hash[j]);
